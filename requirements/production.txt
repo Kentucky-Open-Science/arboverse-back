@@ -7,3 +7,4 @@ gunicorn==20.0.4  # https://github.com/benoitc/gunicorn
 Collectfast==2.2.0  # https://github.com/antonagestam/collectfast
 django-anymail[mailgun]==8.0
 django-redis==4.12.1  # https://github.com/jazzband/django-redis
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
