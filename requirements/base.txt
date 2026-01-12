@@ -16,3 +16,4 @@ django-allauth==0.57.0  # https://github.com/pennersr/django-allauth
 django-crispy-forms==1.9.2  # https://github.com/django-crispy-forms/django-crispy-forms
 django-autoslug==1.9.8  # https://github.com/justinmayer/django-autoslug/
 django-heroku
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
